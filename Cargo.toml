@@ -1,0 +1,6 @@
+[package]
+name = "Computing_Pedersen_Hash_Using_Rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
