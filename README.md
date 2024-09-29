@@ -3,6 +3,8 @@ This Rust program explains the implementation of the Pedersen hash function, whi
 ## Functions Implemented:
 - `mod_exp:` This function calculates the modular exponentiation. It computes the result of `base^exp % modulus` using an efficient algorithm called **exponentiation by squaring**.
 - `pedersen_hash:` This function implements the **Pedersen hash**. It takes as input a list of generators, a list of values, and a modulus. It computes the hash by performing the modular exponentiation of each generator raised to its corresponding value, then multiplies all the results together modulo the given modulus.
+## Requirements
+- Rust installed on your machine. (If Rust is not installed, follow the instructions on the [official Rust website](https://www.rust-lang.org/tools/install) to install it).
 ## Example
 For the given modulus $p=13$, generators $g=[2,6,7]$, and values $x=[3,7,11]$, the program computes the Pedersen hash and prints the result:
 >```
